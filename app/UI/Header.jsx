@@ -29,9 +29,9 @@ const Header = () => {
       <div className="hidden sm:flex">
         <LoginButton />
       </div>
-      <div className="flex sm:hidden">
+      <Link href="/admin" className="flex sm:hidden">
         <FontAwesomeIcon icon={faBars} className="text-white h-7" />
-      </div>
+      </Link>
     </nav>
   );
 };
